@@ -10,3 +10,6 @@ gem 'pry'
 gem 'icalendar'
 gem 'faraday'
 
+group :production do
+  gem "puma"
+end
